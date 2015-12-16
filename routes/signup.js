@@ -6,8 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('signup',{ title: 'Sign up'});
 });
 
-router.post('/',function(req,res,next){
-  res.send(req.headers);
+router.post('/signup',function(req,res,next){
+  res.send("hello");
 });
 
 module.exports = router;
